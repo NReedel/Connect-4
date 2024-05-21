@@ -56,7 +56,7 @@ targetOccupancy.style.height = dimensions.circleSize;
 //--Global Data-- //
 
 // board dimensions
-let dimensions = new Dimensions(5,6,50,40);
+let dimensions = new Dimensions(5,7,50,40);
 
 // html elements
 let main = document.querySelector("main");
