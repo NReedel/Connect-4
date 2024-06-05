@@ -98,6 +98,7 @@ function makeBoard (){
 				let bombLife = Math.floor((Math.random()*2)+1);
 				spot.text = bombLife;
 			}
+			turn.value = 'Blue';
 			// square's id holds cordinates and is the outer container for spot 
 			let square = document.createElement("div");
 			square.id = "square_"+y+"-"+x;
